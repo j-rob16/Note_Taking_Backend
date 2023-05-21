@@ -4,13 +4,12 @@ This is a backend application built using Spring Boot 2.7, configured as a Maven
 
 ## Features
 
-- Allows creating a new note by sending a POST request to `/api/notes` with a JSON payload containing the note details.
-- Retrieves all notes by sending a GET request to `/api/notes`.
-- Retrieves a single note by its ID by sending a GET request to `/api/notes/{id}`.
+- Allows creating a new note by sending a POST request to `/notes` with a JSON payload containing the note details.
+- Retrieves all notes by sending a GET request to `/notes`.
+- Retrieves a single note by its ID by sending a GET request to `/notes/{id}`.
 
 ## Prerequisites
 
-- Java Development Kit (JDK) 8 or higher
 - Maven
 
 ## Getting Started
